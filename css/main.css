@@ -1,0 +1,85 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    width: 100%
+}
+
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 30px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: aquamarine;
+}
+
+nav, a{
+    color:aquamarine;
+    text-decoration: none;
+}
+
+h1, h2, h3, p, figcaption, article{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+figure{
+    display: inline-block;
+}
+
+.column {
+    float: left;
+    width: 50;
+    padding: 10px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #align{
+      text-align: center;
+  }
+
+#proposal{
+    text-align: center;
+}
+
+html{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.column2 {
+    float: left;
+    width: 33.3;
+    padding: 10px;
+  }
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
